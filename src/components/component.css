@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Card css */
+.card-main{
+    padding: 10px;
+}
+.card{
+    background-color: white;
+    height: auto;
+    /* width: 15%; */
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 1px rgb(154, 148, 148);
+    padding: 12px;
+}
+.card>h4{
+    padding: 10px;
+}
+/* .card>h1,card.p{
+    padding: 5px;
+} */
+/* .cardtitle{
+    display: flex;
+    padding: 2px;
+}
+
+.cardtitle h3{
+    padding-left: 5px;
+} */
+
+
+/* status */
+.status-main{
+    display: flex;
+    /* background-color: cadetblue; */
+    justify-content: space-around;
+}
+.status-cards{
+    border-top: 1px solid rgb(191, 186, 186);
+    /* background-color: aqua; */
+    width: 100%;
+
+}
+.status-title{
+    display: flex;
+    padding: 10px;
+    /* width: 100%; */
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: beige; */
+    /* flex-wrap: wrap; */
+}
+.status-title-1{
+/* background-color: aquamarine; */
+width: 40%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.status-title-2{
+/* background-color: rgb(196, 255, 204); */
+width: 30%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
